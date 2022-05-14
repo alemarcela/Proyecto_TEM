@@ -1,2 +1,1 @@
-# Proyecto_TEM
-Proyecto de la materia Tecnologías Emergentes.
+# Proyecto_Emergentes
