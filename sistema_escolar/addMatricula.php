@@ -1,5 +1,6 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
+	//Capturamos los datos del formulario matricula
 	$nombreAl = $_POST["nombresA"];
 	$apellidoAl = $_POST["apellidosA"];
 	$fechaAl = $_POST["fechaNA"];
