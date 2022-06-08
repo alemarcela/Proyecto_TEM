@@ -7,7 +7,8 @@
 	require_once __DIR__ . '/vendor/autoload.php';
 	$tituloA = $_POST["tituloAviso"];
 	$informacionA = $_POST["infoAviso"];
-
+	
+	//Conexión a la base de datos
 	$aviso= new MongoDB\Client("mongodb://localhost:27017");
 	$collection = $aviso->escuela->avisos;
 
